@@ -31,11 +31,4 @@ This project combines embedded systems, mobile development, Bluetooth Low Energy
 - MapKit
 
 ## System Architecture
-iOS Application (SwiftUI)
-           │
-           │ BLE
-           ▼
-ESP32 Microcontroller
-           │
-           ▼
-OLED Display
+iOS Application (SwiftUI) --> ESP32 Microcontroller --> OLED Display
